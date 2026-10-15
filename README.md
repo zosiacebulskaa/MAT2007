@@ -107,13 +107,11 @@ The full list of symptom classifications is available in [`burdens.csv`](./burde
 
 For GI and pain, daily burden is calculated as the mean intensity of the symptoms reported in that category on a given day. Missing symptom values are excluded rather than treated as zero.
 
-
-   $$\text{Daily burden}=\frac{\sum \text{normalized intensities of reported symptoms}}{\text{number of symptoms reported that day}}$$
+$$\text{Daily burden}=\frac{\sum \text{normalized intensities of reported symptoms}}{\text{number of symptoms reported that day}}$$
 
 2. **Cycle-phase means:** Calculate the mean daily score for each menstrual cycle phase within each individual cycle.
 
-
-   $$\text{Cycle-phase mean}=\frac{\sum \text{normalized daily scores}}{\text{number of recorded days}}$$
+$$\text{Cycle-phase mean}=\frac{\sum \text{normalized daily scores}}{\text{number of recorded days}}$$
 
 4. **Participant means:** Average the cycle-phase means across all available cycles for each participant, producing one mean per participant per phase.
 
