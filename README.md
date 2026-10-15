@@ -105,7 +105,8 @@ The full list of symptom classifications is available in [`burdens.csv`](./burde
 ### Differences between Cycle Phases (RQ1 & RQ2)
 1. **Daily scores:** Calculate normalized daily scores for general physical state (RQ1) and daily GI and pain burdens (RQ2).
 
-   For GI and pain, daily burden is calculated as the mean intensity of the symptoms reported in that category on a given day. Missing symptom values are excluded rather than treated as zero.
+For GI and pain, daily burden is calculated as the mean intensity of the symptoms reported in that category on a given day. Missing symptom values are excluded rather than treated as zero.
+
 
    $$
    \text{Daily burden} =
