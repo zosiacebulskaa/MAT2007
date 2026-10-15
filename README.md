@@ -115,6 +115,7 @@ The full list of symptom classifications is available in [`burdens.csv`](./burde
 
 2. **Cycle-phase means:** Calculate the mean daily score for each menstrual cycle phase within each individual cycle.
 
+ For
    $$
    \text{Cycle-phase mean} =
    \frac{\sum \text{normalized daily scores}}
