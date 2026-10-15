@@ -116,14 +116,16 @@ The full list of symptom classifications is available in [`burdens.csv`](./burde
 2. **Cycle-phase means:** Calculate the mean daily score for each menstrual cycle phase within each individual cycle.
 
    $$
-   \text{Cycle-phase mean} = \frac{\sum \text{normalized daily scores}}{\text{number of recorded days}}
+   \text{Cycle-phase mean} =
+   \frac{\sum \text{normalized daily scores}}
+   {\text{number of recorded days}}
    $$
 
-3. **Participant means:** Average the cycle-phase means across all available cycles for each participant, producing one mean per participant per phase.
+4. **Participant means:** Average the cycle-phase means across all available cycles for each participant, producing one mean per participant per phase.
 
-4. **Group means:** Average the participant means for the same phase across all participants.
+5. **Group means:** Average the participant means for the same phase across all participants.
 
-5. **Paired differences:** Calculate differences between menstrual cycle phases using participant-level paired observations. Differences are calculated as the second phase minus the first phase.
+6. **Paired differences:** Calculate differences between menstrual cycle phases using participant-level paired observations. Differences are calculated as the second phase minus the first phase.
 
 ### Correlation (RQ3)
 1. **Match observations:** Match daily physical state and burden scores by participant and day, retaining only days with both values available.
